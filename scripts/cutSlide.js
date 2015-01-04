@@ -121,7 +121,7 @@ $(function(){
             case 4:
                 $circle.each(function(index) {
                     $(this).parent().css("opacity",0);
-                    $(this).css({"width":"4vmax","height":"8vmax","line-height":"8vmax"});
+                    $(this).css({"width":"8vmin","height":"16vmin","line-height":"16vmin"});
                 })
                 break;
             case 5:
@@ -157,7 +157,7 @@ $(function(){
     }
 
     var obj1={opacity:"1.0"};
-    var obj2={width: "8vmax",height: "8vmax","line-height": "8vmax"};
+    var obj2={width: "16vmin",height: "16vmin","line-height": "16vmin"};
     var _slideFun=[
         //把要执行的动画依次放入一个数组
             function(){
